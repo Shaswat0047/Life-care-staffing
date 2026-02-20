@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeCare Admin Panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="admin-body">
+    <div class="admin-wrap">
+      <h1>Admin Panel</h1>
+      <p class="muted">All frontend fields are editable below. No JSON editing required.</p>
+
+      <section id="login-box" class="admin-card">
+        <h2>Login</h2>
+        <input id="admin-password" type="password" placeholder="Enter admin password" />
+        <button id="login-btn" class="btn btn-solid" type="button">Login</button>
+        <p class="muted small">Default password: <code>admin1234</code> (change with ADMIN_PASSWORD env var).</p>
+      </section>
+
+      <section id="editor-box" class="admin-card hidden">
+        <h2>Website Field Editor</h2>
+        <p class="muted small">Edit values and click Save Changes. These fields map directly to frontend content.</p>
+        <div id="fields-container" class="fields-container"></div>
+        <div class="admin-actions">
+          <button id="save-btn" class="btn btn-solid" type="button">Save Changes</button>
+        </div>
+        <p id="status" class="muted"></p>
+      </section>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

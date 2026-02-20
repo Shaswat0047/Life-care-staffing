@@ -1,0 +1,132 @@
+{
+  "settings": {
+    "showAdminLink": true,
+    "showSections": {
+      "services": true,
+      "about": true,
+      "leadership": true,
+      "jobs": true,
+      "cta": true,
+      "footer": true
+    }
+  },
+  "site": {
+    "companyName": "LifeCare Staffing",
+    "tagline": "Nurse-Founded & Led healthcare workforce solutions.",
+    "applyButtonText": "Apply Now"
+  },
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Jobs",
+      "href": "#jobs"
+    },
+    {
+      "label": "Leadership",
+      "href": "#leadership"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Nurse-Founded & Led",
+    "title": "Your Trusted Partner in Healthcare Staffing",
+    "description": "We connect top clinicians with meaningful opportunities while helping hospitals, clinics, and long-term care facilities fill critical workforce needs.",
+    "primaryCtaLabel": "Search Jobs",
+    "primaryCtaHref": "#jobs",
+    "secondaryCtaLabel": "Employer Solutions",
+    "secondaryCtaHref": "#services",
+    "backgroundImage": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80"
+  },
+  "services": [
+    {
+      "title": "Travel Nursing",
+      "description": "Flexible assignments nationwide for RNs, LPNs, and allied professionals."
+    },
+    {
+      "title": "Per Diem Staffing",
+      "description": "On-demand shifts for healthcare teams that need immediate coverage."
+    },
+    {
+      "title": "Permanent Placement",
+      "description": "Strategic hiring support to build resilient, high-performing care teams."
+    },
+    {
+      "title": "Workforce Technology",
+      "description": "Scheduling, credential tracking, and onboarding solutions in one place."
+    }
+  ],
+  "about": {
+    "eyebrow": "About LifeCare Staffing",
+    "title": "Compassion-Driven Staffing for Better Patient Outcomes",
+    "description": "LifeCare Staffing is a nurse-founded organization committed to ethical staffing, clinician wellbeing, and better patient outcomes.",
+    "image": "https://images.unsplash.com/photo-1651008376515-1f9ef4a13084?auto=format&fit=crop&w=1000&q=80"
+  },
+  "leadership": {
+    "eyebrow": "Leadership Team",
+    "title": "Nurse-Founded & Led",
+    "subtitle": "Leadership photos and bios are managed from the admin panel."
+  },
+  "leaders": [
+    {
+      "id": "founder",
+      "name": "Anthony Kokutse",
+      "title": "Founder · Nurse-Founded & Led",
+      "bio": "Anthony Kokutse brings frontline healthcare insight and people-first leadership to LifeCare Staffing.",
+      "linkedin": "https://www.linkedin.com/in/anthony-kokutse-639806295/",
+      "photo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "cofounder1",
+      "name": "Nirbhey S Pathhak",
+      "title": "Co-Founder",
+      "bio": "Nirbhey S Pathhak supports operational excellence and strategic growth.",
+      "linkedin": "https://www.linkedin.com/in/nirbheyspathhak/",
+      "photo": "https://images.unsplash.com/photo-1659353885124-1144f0983f7b?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "cofounder2",
+      "name": "Sam Parker",
+      "title": "Co-Founder",
+      "bio": "Sam Parker helps shape client and clinician partnerships.",
+      "linkedin": "https://www.linkedin.com/in/shaswat-healthcare-locum-recruiter/",
+      "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "jobs": {
+    "eyebrow": "Find Your Next Role",
+    "title": "Healthcare Job Opportunities",
+    "description": "Explore contract, travel, per diem, and full-time roles tailored to your specialty and career goals.",
+    "tags": [
+      "Registered Nurse",
+      "ICU / ER",
+      "Allied Health",
+      "Home Health",
+      "Long-Term Care"
+    ],
+    "ctaLabel": "Browse Open Positions",
+    "ctaHref": "#",
+    "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=900&q=80"
+  },
+  "cta": {
+    "title": "Need Staffing Support Fast?",
+    "description": "Partner with LifeCare Staffing for rapid placements, consistent quality, and dedicated account management.",
+    "buttonLabel": "Request Talent",
+    "buttonHref": "#contact"
+  },
+  "contact": {
+    "phone": "+1 (800) 555-0123",
+    "email": "hello@lifecarestaffing.com",
+    "officeLine1": "123 Wellness Avenue",
+    "officeLine2": "Dallas, TX 75201"
+  }
+}
